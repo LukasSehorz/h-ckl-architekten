@@ -1,0 +1,50 @@
+{
+  "out": "../site/assets/video/hero.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "crf": 20,
+  "grade": "eq=saturation=0.80:contrast=1.02",
+  "shots": [
+    {
+      "file": "../_research/veo/veo_daemmerung.mp4",
+      "start": 0.4,
+      "duration": 5.0,
+      "grade": "eq=saturation=0.74:contrast=1.03:brightness=-0.015",
+      "extra": "unsharp=5:5:0.5:5:5:0.0"
+    },
+    {
+      "file": "../_research/showreel_src/pexels_hero_orig.mp4",
+      "start": 0.5,
+      "duration": 5.0,
+      "grade": "eq=saturation=0.80:contrast=1.04:brightness=0.01"
+    },
+    {
+      "file": "../_research/veo/veo_interieur.mp4",
+      "start": 1.0,
+      "duration": 4.5,
+      "grade": "eq=saturation=0.72:contrast=1.02:brightness=-0.01",
+      "extra": "unsharp=5:5:0.5:5:5:0.0"
+    },
+    {
+      "file": "../_research/showreel_src/pexels_cta_orig.mp4",
+      "start": 1.0,
+      "duration": 5.0,
+      "grade": "eq=saturation=0.78:contrast=1.05:brightness=-0.005"
+    },
+    {
+      "file": "../_research/veo/veo_material.mp4",
+      "start": 1.0,
+      "duration": 4.5,
+      "grade": "eq=saturation=0.74:contrast=1.02",
+      "extra": "unsharp=5:5:0.5:5:5:0.0"
+    },
+    {
+      "file": "../_research/veo/veo_blauestunde.mp4",
+      "start": 0.2,
+      "duration": 5.5,
+      "grade": "eq=saturation=0.76:contrast=1.03:brightness=-0.01",
+      "extra": "unsharp=5:5:0.5:5:5:0.0"
+    }
+  ]
+}

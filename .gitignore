@@ -1,0 +1,29 @@
+# Abhängigkeiten
+node_modules/
+_tools/node_modules/
+_tools/package-lock.json
+
+# Rohdaten und Zwischenstände der Recherche (1,2 GB, davon viel Fremdmaterial:
+# Referenzseite, heruntergeladene Videos, Screenshot-Serien, Kandidaten-Clips)
+_research/*
+
+# Ausnahme: die Quellclips, aus denen das Hero-Showreel gebaut wird.
+# Ohne sie lässt sich `_tools/build-showreel.mjs` nach dem Klonen nicht ausführen.
+!_research/veo/
+_research/veo/*
+!_research/veo/*.mp4
+!_research/showreel_src/
+_research/showreel_src/*
+!_research/showreel_src/pexels_hero_orig.mp4
+!_research/showreel_src/pexels_cta_orig.mp4
+
+# Betriebssystem / Editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Zugangsdaten
+.env
+*.key

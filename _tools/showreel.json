@@ -1,0 +1,64 @@
+{
+ "out": "../site/assets/video/hero.mp4",
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "crf": 23,
+ "grade": "eq=saturation=0.80:contrast=1.02",
+ "shots": [
+  {
+   "_": "1 Aussen: dunkle Holzfassade im Nebel, Morgenwiese",
+   "file": "../_research/veo/veo_daemmerung.mp4",
+   "start": 0.4,
+   "duration": 5.0,
+   "grade": "eq=saturation=0.72:contrast=1.04:brightness=-0.02",
+   "extra": "unsharp=5:5:0.6:5:5:0.0"
+  },
+  {
+   "_": "2 Aussen: Baukoerper in der Daemmerung (Pexels)",
+   "file": "../_research/showreel_src/pexels_hero_orig.mp4",
+   "start": 0.5,
+   "duration": 4.0,
+   "grade": "eq=saturation=0.78:contrast=1.05:brightness=-0.005"
+  },
+  {
+   "_": "3 Innen Tag: Sichtbeton + Eiche, Lichtband auf dem Boden",
+   "file": "../_research/veo/veo_int_tag.mp4",
+   "start": 0.8,
+   "duration": 5.5,
+   "grade": "eq=saturation=0.70:contrast=1.03:brightness=-0.055",
+   "extra": "unsharp=5:5:0.6:5:5:0.0"
+  },
+  {
+   "_": "4 Material: verwitterte Laerche mit Blattschatten",
+   "file": "../_research/veo/veo_material.mp4",
+   "start": 1.5,
+   "duration": 4.0,
+   "grade": "eq=saturation=0.62:contrast=0.98:brightness=-0.11",
+   "extra": "unsharp=5:5:0.6:5:5:0.0"
+  },
+  {
+   "_": "5 Innen Abend: Holz + Beton, warmes Licht",
+   "file": "../_research/veo/veo_int_abend.mp4",
+   "start": 4.2,
+   "duration": 4.0,
+   "grade": "eq=saturation=0.74:contrast=1.03:brightness=-0.02",
+   "extra": "unsharp=5:5:0.6:5:5:0.0"
+  },
+  {
+   "_": "6 Aussen: Holzfassade im Nebel, nah (Pexels)",
+   "file": "../_research/showreel_src/pexels_cta_orig.mp4",
+   "start": 1.0,
+   "duration": 4.0,
+   "grade": "eq=saturation=0.74:contrast=1.05:brightness=-0.03"
+  },
+  {
+   "_": "7 Aussen blaue Stunde: warm erleuchtete Fenster",
+   "file": "../_research/veo/veo_blauestunde.mp4",
+   "start": 0.2,
+   "duration": 5.5,
+   "grade": "eq=saturation=0.76:contrast=1.03:brightness=-0.02",
+   "extra": "unsharp=5:5:0.6:5:5:0.0"
+  }
+ ]
+}
